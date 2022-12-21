@@ -30,9 +30,19 @@ def part1_calculate_T_pose(bvh_file_path):
     Tips:
         joint_name顺序应该和bvh一致
     """
-    joint_name = None
-    joint_parent = None
-    joint_offset = None
+    joint_name = []
+    joint_parent = []
+    joint_offset = []
+
+    cnt = 0
+    myStack = []
+    with open(bvh_file_path, 'r') as file_obj:
+        for line in file_obj:
+            lineList = line.split()
+
+            if
+
+
     return joint_name, joint_parent, joint_offset
 
 
